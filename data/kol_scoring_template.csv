@@ -1,0 +1,7 @@
+﻿dimension,weight,description,calculation
+engagement_rate,0.30,"Audience interaction quality","(likes + comments + shares) / followers * 100%"
+follower_growth,0.20,"Trend direction (TikTok estimate)","Ratio of recent video views vs earlier videos"
+followers,0.15,"Raw reach (log-scaled for fairness)","Log-normalized total followers across IG + TT"
+commerce_potential,0.10,"Creator marketplace / shop signals","Binary shop presence * log(products_count)"
+content_frequency,0.10,"How often creator posts","Instagram posts per week"
+avg_views,0.15,"Content visibility","Average views per TikTok video"
