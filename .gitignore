@@ -1,0 +1,28 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+venv/
+
+# Environment
+.env
+credentials.json
+*.pem
+
+# Output data (contains real scraped data)
+data/*.json
+!data/sample_*.json
+!data/kol_*.csv
+!data/*.json.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
